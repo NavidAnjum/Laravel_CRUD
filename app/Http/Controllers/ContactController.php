@@ -93,7 +93,7 @@ class ContactController extends Controller
                                                 'email' => 'required|email|max:100',
                                                 'mobile' => 'required|string|max:50',
                                                 'date_of_birth' => 'required|date',
-                                                'user_image' => 'nullable|image|mimes:jpeg,png,jpg|max:2048',
+                                     //           'user_image' => 'nullable|image|mimes:jpeg,png,jpg|max:2048',
                                             ]);
 
 
